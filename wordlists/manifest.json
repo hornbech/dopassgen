@@ -1,0 +1,1045 @@
+{
+  "schema_version": 1,
+  "lists": [
+    {
+      "lang": "en",
+      "variant": "eff-short-1",
+      "native_name": "English",
+      "english_name": "English",
+      "count": 1296,
+      "sha256": "3680fb8483e03eab3067f20ef8b8848a086006b25981b0df6c8bdc603c4ed55e",
+      "public_path": "/words/en.txt",
+      "legacy_paths": [
+        "/eff_short.txt"
+      ],
+      "source": {
+        "name": "Electronic Frontier Foundation, Short Wordlist #1",
+        "url": "https://www.eff.org/files/2016/09/08/eff_short_wordlist_1.txt",
+        "revision": null,
+        "note": "Exact ordered word match with retrieved upstream; dice-number column removed. Historical import revision not recorded. Upstream raw-file SHA-256 recorded in upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "EFF Short Wordlist #1 by Electronic Frontier Foundation (creator: Joseph Bonneau), https://www.eff.org/dice ; CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ . Changes: removed dice-number column; retained words and order. No endorsement implied.",
+        "sharealike": false
+      },
+      "normalization": "Preserved EFF Short #1, lowercase ASCII; 3-5 characters; 1296 unique tokens; dice indices removed; LF-delimited, no terminal LF. KNOWN BLOCKER: yo-yo at line 1286 contains a hyphen and violates the new a-z-only policy.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "KNOWN STRUCTURAL BLOCKER: yo-yo at line 1286 violates a-z-only policy and must not be silently changed (yoyo also exists). Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: none matched by limited probes. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "da",
+      "variant": "ascii-curated-1",
+      "native_name": "Dansk",
+      "english_name": "Danish",
+      "count": 1296,
+      "sha256": "e66f52aa4734a2ad3cce4a71bbecc0eabda0fa41def5b0b23035b3edc5a76d90",
+      "public_path": "/words/da.txt",
+      "legacy_paths": [
+        "/da_words.txt"
+      ],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/da/da_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/da/da_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Danish frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: fanden, fuck, lort, satan, seks, sex, slut. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "es",
+      "variant": "ascii-curated-1",
+      "native_name": "Espa\u00f1ol",
+      "english_name": "Spanish",
+      "count": 1296,
+      "sha256": "e174f4265df8797d4c830858b1a5c8c0915147164b07d4be08b4edb0c6aa27b5",
+      "public_path": "/words/es.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/es/es_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/es/es_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Spanish frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: con, culo, joder, mierda, pene, puta, puto, sexy. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "fr",
+      "variant": "ascii-curated-1",
+      "native_name": "Fran\u00e7ais",
+      "english_name": "French",
+      "count": 1296,
+      "sha256": "c7f35392122cd7eef07e80d4459d65158ddfbffb750097881bba362a799e8029",
+      "public_path": "/words/fr.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/fr/fr_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/fr/fr_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "French frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: chier, con, cul, foutre, merde, putain, pute, sexy. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "de",
+      "variant": "ascii-curated-1",
+      "native_name": "Deutsch",
+      "english_name": "German",
+      "count": 1296,
+      "sha256": "fa892185139ba4adf8b65dab8765a446d805dd3a1a3fda6c0c4370578e133a28",
+      "public_path": "/words/de.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/de/de_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/de/de_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "German frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: dick, fanden, fick, fuck, sex. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "pt",
+      "variant": "ascii-curated-1",
+      "native_name": "Portugu\u00eas",
+      "english_name": "Portuguese",
+      "count": 1296,
+      "sha256": "532c6e4d4ee17b8f4e1a1784a23093d4121cc007c2fff56ae2fcd4d46a273a9a",
+      "public_path": "/words/pt.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/pt/pt_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/pt/pt_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Portuguese frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: puta. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "it",
+      "variant": "ascii-curated-1",
+      "native_name": "Italiano",
+      "english_name": "Italian",
+      "count": 1296,
+      "sha256": "faa4dbc21464ab8f751bfc8fbdbd0264de9c0c063c0819332e92fd45496343b8",
+      "public_path": "/words/it.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/it/it_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/it/it_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Italian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: con, culo, sexy. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "id",
+      "variant": "ascii-curated-1",
+      "native_name": "Bahasa Indonesia",
+      "english_name": "Indonesian",
+      "count": 1296,
+      "sha256": "3ece28df1ed3e0463842e12a32483f3575bddd732924708e43b16e8b9a9657f4",
+      "public_path": "/words/id.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/id/id_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/id/id_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Indonesian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: fuck, penis, seks, seksi. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "pl",
+      "variant": "ascii-curated-1",
+      "native_name": "Polski",
+      "english_name": "Polish",
+      "count": 1296,
+      "sha256": "aceab4728d89ceea4859ebb8e330ea2648827527265f4dcc3a483f752cf3c2ce",
+      "public_path": "/words/pl.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/pl/pl_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/pl/pl_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Polish frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: kurwa, seks. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "nl",
+      "variant": "ascii-curated-1",
+      "native_name": "Nederlands",
+      "english_name": "Dutch",
+      "count": 1296,
+      "sha256": "02cbf62e58b6f63deaa643b1ab442fb6a2361d7c8f3e6944312371eaf97aae9a",
+      "public_path": "/words/nl.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/nl/nl_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/nl/nl_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Dutch frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: seks, sexy, shit. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "tr",
+      "variant": "ascii-curated-1",
+      "native_name": "T\u00fcrk\u00e7e",
+      "english_name": "Turkish",
+      "count": 1296,
+      "sha256": "2203e35877339d7e019381093f25553014f4b7205001d06058304c2c9d09ee40",
+      "public_path": "/words/tr.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/tr/tr_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/tr/tr_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Turkish frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: seks, seksi. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "sv",
+      "variant": "ascii-curated-1",
+      "native_name": "Svenska",
+      "english_name": "Swedish",
+      "count": 1296,
+      "sha256": "96ef06d66913c7695522f9ed43a560a1a69bbfcb535af0225872e92d9198faa0",
+      "public_path": "/words/sv.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/sv/sv_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/sv/sv_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Swedish frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: fick, satan, sex, slut. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "ro",
+      "variant": "ascii-curated-1",
+      "native_name": "Rom\u00e2n\u0103",
+      "english_name": "Romanian",
+      "count": 1296,
+      "sha256": "3ab4df020f2f421af84462e2507839bc506daf7dd031a316fa3a15d59a881adc",
+      "public_path": "/words/ro.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/ro/ro_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/ro/ro_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Romanian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: sex, sexy. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "hu",
+      "variant": "ascii-curated-1",
+      "native_name": "Magyar",
+      "english_name": "Hungarian",
+      "count": 1296,
+      "sha256": "fe265d8ca96f0a4f19b7c521663683bfdb78d576c6003c8457faf25b59394241",
+      "public_path": "/words/hu.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/hu/hu_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/hu/hu_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Hungarian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: dick, kurva. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "cs",
+      "variant": "ascii-curated-1",
+      "native_name": "\u010ce\u0161tina",
+      "english_name": "Czech",
+      "count": 1296,
+      "sha256": "e413c7dcb29883d4e037de7a56d16171c564ddeb3b8f231c69b82035801b6cff",
+      "public_path": "/words/cs.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/cs/cs_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/cs/cs_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Czech frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: kurva, penis, prdel, prdele, sex, sexy. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "fi",
+      "variant": "ascii-curated-1",
+      "native_name": "Suomi",
+      "english_name": "Finnish",
+      "count": 1296,
+      "sha256": "10e9a3bfb1d8c4ac90369740a46f9bd0d8506bb2bcd952fa0f3c367896578bdb",
+      "public_path": "/words/fi.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/fi/fi_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/fi/fi_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Finnish frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: none matched by limited probes. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "vi",
+      "variant": "ascii-curated-1",
+      "native_name": "Ti\u1ebfng Vi\u1ec7t",
+      "english_name": "Vietnamese",
+      "count": 1296,
+      "sha256": "ad2722d5af13e1edc9a9e3f60e592d652a5f67c7d41b503d6645742760f4795b",
+      "public_path": "/words/vi.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/vi/vi_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/vi/vi_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Vietnamese frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: con, dick, fuck, satan, sex, sexy, shit. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "tl",
+      "variant": "ascii-curated-1",
+      "native_name": "Tagalog",
+      "english_name": "Tagalog",
+      "count": 1296,
+      "sha256": "840a7f114ab002f463e993c0bb4281cbb6cd33cf87cb7d4abb9e5626279c2086",
+      "public_path": "/words/tl.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/tl/tl_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/tl/tl_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Tagalog frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: cock, gago, porn, puta, seksi, sex, sexy, shit, whore. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "ca",
+      "variant": "ascii-curated-1",
+      "native_name": "Catal\u00e0",
+      "english_name": "Catalan",
+      "count": 1296,
+      "sha256": "7bf8d4d27e54cae3c45d53e9864815902a270ca18af3fef7fe66d4402607ef8a",
+      "public_path": "/words/ca.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/ca/ca_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/ca/ca_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Catalan frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: cul, dick, puta. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "sk",
+      "variant": "ascii-curated-1",
+      "native_name": "Sloven\u010dina",
+      "english_name": "Slovak",
+      "count": 1296,
+      "sha256": "60c7a10f91a63b01b684fa08d84a6de3783acc97211a9d2440d18a34d67336e0",
+      "public_path": "/words/sk.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/sk/sk_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/sk/sk_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Slovak frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: kokot, kurva, pojeb, prdel, prdele, seriem, sex, sexi, sexy. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "hr",
+      "variant": "ascii-curated-1",
+      "native_name": "Hrvatski",
+      "english_name": "Croatian",
+      "count": 1296,
+      "sha256": "c7197f6404763db326e879dff222251e5bc0c975146f3c40f433673b4fe93b20",
+      "public_path": "/words/hr.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/hr/hr_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/hr/hr_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Croatian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: jebem, jebena, jebeni, jebeno, jebi, jebote, kurac, puta, seks, seksi. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "sl",
+      "variant": "ascii-curated-1",
+      "native_name": "Sloven\u0161\u010dina",
+      "english_name": "Slovenian",
+      "count": 1296,
+      "sha256": "b849cf043a26bf33ba4b2afd00677c9b339e4a0a260af1af05dc616b3f1459b5",
+      "public_path": "/words/sl.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/sl/sl_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/sl/sl_50k.txt",
+        "revision": null,
+        "note": "Historical import revision unknown. Independently reproduces first 1296 unique [a-z]{3,6} tokens from 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6. This is audit equivalence, not proof of original checkout. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Slovenian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: jebi, kurba, pizda, seks, seksi. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "no",
+      "variant": "ascii-curated-1",
+      "native_name": "Norsk",
+      "english_name": "Norwegian",
+      "count": 1296,
+      "sha256": "6137e49d13b8a2cb79df937c4af9c1768f0518b61f968a0550f2f179127611d6",
+      "public_path": "/words/no.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/no/no_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/no/no_50k.txt",
+        "revision": null,
+        "note": "First registration: curated list created directly from the 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6; no prior historical import exists. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Norwegian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: seks, sex, sexy. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "sr",
+      "variant": "ascii-curated-1",
+      "native_name": "Srpski",
+      "english_name": "Serbian",
+      "count": 1296,
+      "sha256": "96f456ebe0a584d0f7d55cb770b61ff11a6b7fae5da9646f59d3f82f55ae258e",
+      "public_path": "/words/sr.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/sr/sr_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/sr/sr_50k.txt",
+        "revision": null,
+        "note": "First registration: curated list created directly from the 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6; no prior historical import exists. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Serbian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: jebem, jebena, jebeni, jebeno, jebi, jebote, kurac, puta, seks, seksi. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "sq",
+      "variant": "ascii-curated-1",
+      "native_name": "Shqip",
+      "english_name": "Albanian",
+      "count": 1296,
+      "sha256": "41dd0ff79d5540466ee7020c45999315406be3cb2a46d6e2172ecbbdca73c44c",
+      "public_path": "/words/sq.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/sq/sq_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/sq/sq_50k.txt",
+        "revision": null,
+        "note": "First registration: curated list created directly from the 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6; no prior historical import exists. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Albanian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: seks, seksi. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "lt",
+      "variant": "ascii-curated-1",
+      "native_name": "Lietuvi\u0173",
+      "english_name": "Lithuanian",
+      "count": 1296,
+      "sha256": "3d2d64cdcea0f179d3b3f736bc238531ec120b0e0ecd74ab9a955d83484ebe28",
+      "public_path": "/words/lt.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/lt/lt_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/lt/lt_50k.txt",
+        "revision": null,
+        "note": "First registration: curated list created directly from the 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6; no prior historical import exists. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Lithuanian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: porno. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "lv",
+      "variant": "ascii-curated-1",
+      "native_name": "Latvie\u0161u",
+      "english_name": "Latvian",
+      "count": 1296,
+      "sha256": "725943973a50059b9d4ac5ca57c8ee8331b105a05f73d9c6bd0217c289c9f6d5",
+      "public_path": "/words/lv.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/lv/lv_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/lv/lv_50k.txt",
+        "revision": null,
+        "note": "First registration: curated list created directly from the 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6; no prior historical import exists. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Latvian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: ass. Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    },
+    {
+      "lang": "et",
+      "variant": "ascii-curated-1",
+      "native_name": "Eesti",
+      "english_name": "Estonian",
+      "count": 1296,
+      "sha256": "00f2baecfca98cb0a5196a7c311bb0f809de97bf2d0f52ac5a08a2c930f58966",
+      "public_path": "/words/et.txt",
+      "legacy_paths": [],
+      "source": {
+        "name": "hermitdave/FrequencyWords, content/2016/et/et_50k.txt",
+        "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2016/et/et_50k.txt",
+        "revision": null,
+        "note": "First registration: curated list created directly from the 2016 corpus at audited revision 525f9b560de45753a5ea01069454e72e9aa541c6; no prior historical import exists. No transliteration; non-ASCII tokens were excluded. See upstream-audit.json."
+      },
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Estonian frequency words from FrequencyWords by Hermit Dave, https://github.com/hermitdave/FrequencyWords (2016 OpenSubtitles-derived corpus). CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Changes: removed counts; retained first 1296 unique lowercase ASCII words of 3-6 letters in frequency order; excluded non-ASCII tokens. No endorsement implied.",
+        "sharealike": true
+      },
+      "normalization": "Retain first 1296 unique upstream tokens matching lowercase ASCII [a-z]{3,6}; exclude non-ASCII (do not transliterate); preserve frequency order; LF-delimited, no terminal LF.",
+      "review": {
+        "linguistic_status": "machine-screened",
+        "reviewer": null,
+        "date": null,
+        "notes": "Structural checks and literal token-probe triage only; no fluent/native approval. See machine-screening.json. Context-sensitive candidates: . Names/borrowings and inflections require review; passing ASCII tests does not establish memorability or linguistic correctness."
+      },
+      "legal_review": {
+        "status": "human-review-pending",
+        "reviewer": null,
+        "date": null,
+        "notes": "Upstream statement retrieved; not legal clearance. Confirm attribution, modification notices, corpus rights and redistribution obligations. Code licensing is separate."
+      },
+      "version": 1,
+      "embedded_in_index": true
+    }
+  ]
+}

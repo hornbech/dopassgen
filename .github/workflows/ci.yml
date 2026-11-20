@@ -1,0 +1,43 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Wordlist integrity (sha256 vs manifest)
+        run: python3 scripts/verify_wordlists.py
+
+      - name: Node test suite (generator regression)
+        run: node --test tests/generator.test.mjs
+
+      - name: Python test suite (decodability invariants)
+        run: python3 -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Agent skill frontmatter present
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          t = Path("skills/password-generation/SKILL.md").read_text()
+          assert t.startswith("---\n"), "SKILL.md must start with YAML frontmatter"
+          assert "name: password-generation" in t.split("---")[1], "frontmatter must pin the skill name"
+          print("frontmatter OK")
+          PY
+
+      - name: Secret scan
+        run: |
+          ! grep -rInE '(api[_-]?key|secret|token|password)[[:space:]]*[:=][[:space:]]*["'\''][A-Za-z0-9/_-]{16,}' \
+            --include='*.js' --include='*.mjs' --include='*.py' --include='*.yml' --include='*.md' . \
+            | grep -viE 'password[- ]?generator|generated secrets|secrets? (out|never|must)'

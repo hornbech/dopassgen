@@ -1,0 +1,771 @@
+[
+ {
+  "lang": "ca",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "acaba",
+      "resta"
+     ],
+     "sequence_b": [
+      "acabar",
+      "esta"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "cs",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "abysme"
+     ],
+     "sequence_b": [
+      "aby",
+      "sme"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "da",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "all",
+      "ejer"
+     ],
+     "sequence_b": [
+      "alle",
+      "jer"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "de",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "abend",
+      "sehe"
+     ],
+     "sequence_b": [
+      "abends",
+      "ehe"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "en",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": false,
+    "reason": "separator occurs inside words: yo-yo"
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": true
+   }
+  }
+ },
+ {
+  "lang": "es",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "acaba",
+      "resto"
+     ],
+     "sequence_b": [
+      "acabar",
+      "esto"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "et",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "aasta",
+      "lasi"
+     ],
+     "sequence_b": [
+      "aastal",
+      "asi"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "fi",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "aika",
+      "ajaa"
+     ],
+     "sequence_b": [
+      "aikaa",
+      "jaa"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "fr",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "agent",
+      "sait"
+     ],
+     "sequence_b": [
+      "agents",
+      "ait"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "hr",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "baci",
+      "oboje"
+     ],
+     "sequence_b": [
+      "bacio",
+      "boje"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "hu",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "abba",
+      "nagy"
+     ],
+     "sequence_b": [
+      "abban",
+      "agy"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "id",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "adalah"
+     ],
+     "sequence_b": [
+      "ada",
+      "lah"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "it",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "alcun",
+      "agente"
+     ],
+     "sequence_b": [
+      "alcuna",
+      "gente"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "lt",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "akys",
+      "elena"
+     ],
+     "sequence_b": [
+      "akyse",
+      "lena"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "lv",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "aci",
+      "salu"
+     ],
+     "sequence_b": [
+      "acis",
+      "alu"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "nl",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "aanval"
+     ],
+     "sequence_b": [
+      "aan",
+      "val"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "no",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "alltid"
+     ],
+     "sequence_b": [
+      "all",
+      "tid"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "pl",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "aby",
+      "mamy"
+     ],
+     "sequence_b": [
+      "abym",
+      "amy"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "pt",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "acaba",
+      "resta"
+     ],
+     "sequence_b": [
+      "acabar",
+      "esta"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "ro",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "acei",
+      "acasa"
+     ],
+     "sequence_b": [
+      "aceia",
+      "casa"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "sk",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "agent",
+      "alebo"
+     ],
+     "sequence_b": [
+      "agenta",
+      "lebo"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "sl",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "bar",
+      "vedel"
+     ],
+     "sequence_b": [
+      "barve",
+      "del"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "sq",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "anije",
+      "nata"
+     ],
+     "sequence_b": [
+      "anijen",
+      "ata"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "sr",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "baci",
+      "oboje"
+     ],
+     "sequence_b": [
+      "bacio",
+      "boje"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "sv",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "alltid"
+     ],
+     "sequence_b": [
+      "all",
+      "tid"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "tl",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "aba",
+      "lagay"
+     ],
+     "sequence_b": [
+      "abala",
+      "gay"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "tr",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "adam",
+      "aile"
+     ],
+     "sequence_b": [
+      "adama",
+      "ile"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "lang": "vi",
+  "count": 1296,
+  "separators": {
+   ".": {
+    "uniquely_decodable": true
+   },
+   "-": {
+    "uniquely_decodable": true
+   },
+   "_": {
+    "uniquely_decodable": true
+   },
+   "none": {
+    "uniquely_decodable": false,
+    "example_collision": {
+     "sequence_a": [
+      "alison"
+     ],
+     "sequence_b": [
+      "ali",
+      "son"
+     ]
+    }
+   }
+  }
+ }
+]
