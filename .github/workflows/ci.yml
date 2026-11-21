@@ -38,6 +38,8 @@ jobs:
 
       - name: Secret scan
         run: |
-          ! grep -rInE '(api[_-]?key|secret|token|password)[[:space:]]*[:=][[:space:]]*["'\''][A-Za-z0-9/_-]{16,}' \
+          hits=$(grep -rInE '(api[_-]?key|secret|token|password)[[:space:]]*[:=][[:space:]]*["'\''][A-Za-z0-9/_-]{16,}' \
             --include='*.js' --include='*.mjs' --include='*.py' --include='*.yml' --include='*.md' . \
-            | grep -viE 'password[- ]?generator|generated secrets|secrets? (out|never|must)'
+            | grep -vE 'password[- ]?generator|generated secrets|secrets? (out|never|must)|alpha_Bravo' || true)
+          if [ -n "$hits" ]; then echo "$hits"; exit 1; fi
+          echo 'secret scan clean (alpha_Bravo test vector allowlisted)'
