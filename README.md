@@ -1,5 +1,7 @@
 # DoPassGen — Cryptographically Secure Password Generation for Humans and AI Agents
 
+[![CI](https://github.com/hornbech/dopassgen/actions/workflows/ci.yml/badge.svg)](https://github.com/hornbech/dopassgen/actions/workflows/ci.yml)
+
 > Generate readable, high-entropy passphrases **locally**. Built for browsers, developers and AI agents — without sending secrets to a remote password-generation API.
 
 ## For humans
